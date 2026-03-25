@@ -24,14 +24,11 @@ This project follows clean architecture principles with separation of concerns a
 ## High-Level Flow
 
 Requestor
-   │
-   ▼
+   ->
 WorkflowsController
-   │
-   ▼
+   ->
 WorkflowService
-   │
-   ▼
+   ->
 Workflow Models / State Transitions
 
 ## Components
